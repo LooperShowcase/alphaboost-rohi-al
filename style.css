@@ -1,0 +1,7 @@
+body {
+  background-image: linear-gradient(to right, red, yellow,orange);
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
