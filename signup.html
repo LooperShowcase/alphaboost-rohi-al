@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul>
+      <li>
+        <img id="gust"
+        src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"width=
+        "50px" height="46"
+      </li>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="signup.html">signup</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <center>
+      <h1 id="heady"><p>McDonald's</p></h1>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/3/36/McDonald%27s_Golden_Arches.svg"
+      />
+    </center>
+    <input id="mypic" type="file" onchange="changpic()" />
+
+    <script>
+      function changpic() {
+        var newPic = document.getElementById("mypic").files[0].name;
+        document.getElementById("gust").src = newPic;
+      }
+    </script>
+  </body>
+</html>
