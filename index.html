@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+  <title> mcdonalds</title>
   <head>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <ul>
-      <li><img id="gust" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"width= "50px" height="46"   </li>
+      <li><img id="gust" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"width= "50px" height="46">   </li>
       <li><a class="active" href="index.html">Home</a></li>
       <li><a href="signup.html">signup</a></li>
       <li><a href="#contact">Contact</a></li>
-  
+      <li><input type="color" name="" id="colorPicker" onchange="changeBG()"></li>
     </ul>
     <center>
 
@@ -25,34 +26,35 @@
 McDonald's is the world's largest restaurant chain by revenue,[12] serving over 69 million customers daily in over 100 countries[13] across 37,855 outlets as of 2018.[14][15] Although McDonald's is best known for its hamburgers, cheeseburgers and french fries, they feature chicken products, breakfast items, soft drinks, milkshakes, wraps, and desserts. The company also added salads, fish, smoothies, and fruit in response to changing consumer tastes and a negative backlash because of the unhealthiness of their food.[16] The McDonald's Corporation revenues come from the rent, royalties, and fees paid by the franchisees, as well as sales in company-operated restaurants. According to two reports published in 2018, McDonald's is the world's second-largest private employer with 1.7 million employees (behind Walmart with 2.3 million employees).[17][18] As of 2020, McDonald's has the ninth-highest global brand valuation.[19]
     </p>
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/Yz2Gi8nHdgo"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+   
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hv5CzJdx6NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/4kNQRDHSqJQ"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SKNCTXEYi48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
     <h2 sign in h2>
 <button type="button" onclick="changecolor()"> click for change color </button>
+<center>
+
+<img src="https://images.squarespace-cdn.com/content/v1/553511e8e4b0a33a05b21990/1613016431980-P7JAS795B11NLVZDIUQT/McTQ_Rube_Goldberg_v10.gif"  width="320px" height="200">
+</center>
+
 
   <script>
   function changecolor()
   {
     document.getElementById("heady").style.background="white";
-    doucmant.getElementById(my Image).scr="https://www.fingerlakes1.com/wp-content/uploads/2021/07/mcdonalds.jpg"
+    doucmant.getElementById("my Image").src="https://www.fingerlakes1.com/wp-content/uploads/2021/07/mcdonalds.jpg"
   }
+
+  function changeBG() {
+    var newColor = document.getElementById("colorPicker").value;
+    document.body.style.background = newColor;
+  }
+
+  
+  
 
 
   </script>
